@@ -1,5 +1,5 @@
 name: Hello
-on: [push]
+on: [push, worlflow_dispatch]
 jobs:
   hello:
     runs-on: ubuntu-latest
